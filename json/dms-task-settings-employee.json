@@ -1,0 +1,71 @@
+{
+    "TargetMetadata": {
+      "TargetSchema": "tjds",
+      "SupportLobs": true,
+      "FullLobMode": false,
+      "LobChunkSize": 64,
+      "LimitedSizeLobMode": true,
+      "LobMaxSize": 32,
+      "BatchApplyEnabled": true
+    },
+    "FullLoadSettings": {
+      "TargetTablePrepMode": "DO_NOTHING",
+      "CreatePkAfterFullLoad": false,
+      "StopTaskCachedChangesApplied": false,
+      "StopTaskCachedChangesNotApplied": false,
+      "MaxFullLoadSubTasks": 2,
+      "TransactionConsistencyTimeout": 600,
+      "CommitRate": 10000
+    },
+    "Logging": {
+        "EnableLogging": true,
+        "LogComponents": [
+            {
+                "Id": "SOURCE_UNLOAD",
+                "Severity": "LOGGER_SEVERITY_DEFAULT"
+            },
+            {
+                "Id": "SOURCE_CAPTURE",
+                "Severity": "LOGGER_SEVERITY_DEFAULT"
+            },
+            {
+                "Id": "TARGET_LOAD",
+                "Severity": "LOGGER_SEVERITY_DEBUG"
+            },
+            {
+                "Id": "TARGET_APPLY",
+                "Severity": "LOGGER_SEVERITY_DETAILED_DEBUG"
+            },
+            {
+                "Id": "TASK_MANAGER",
+                "Severity": "LOGGER_SEVERITY_DEBUG"
+            }
+        ]
+    },
+    "StreamBufferSettings": {
+      "StreamBufferCount": 3,
+      "StreamBufferSizeInMB": 8
+    },
+    "ValidationSettings": {
+       "EnableValidation": false
+    },
+    "ErrorBehavior": {
+      "DataErrorPolicy": "LOG_ERROR",
+      "DataTruncationErrorPolicy":"LOG_ERROR",
+      "DataErrorEscalationPolicy":"SUSPEND_TABLE",
+      "DataErrorEscalationCount": 50,
+      "TableErrorPolicy":"SUSPEND_TABLE",
+      "TableErrorEscalationPolicy":"STOP_TASK",
+      "TableErrorEscalationCount": 50,
+      "RecoverableErrorCount": 0,
+      "RecoverableErrorInterval": 5,
+      "RecoverableErrorThrottling": true,
+      "RecoverableErrorThrottlingMax": 1800,
+      "ApplyErrorDeletePolicy":"IGNORE_RECORD",
+      "ApplyErrorInsertPolicy":"LOG_ERROR",
+      "ApplyErrorUpdatePolicy":"LOG_ERROR",
+      "ApplyErrorEscalationPolicy":"LOG_ERROR",
+      "ApplyErrorEscalationCount": 0,
+      "FullLoadIgnoreConflicts": true
+    }
+  }

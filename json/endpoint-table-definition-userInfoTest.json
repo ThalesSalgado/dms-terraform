@@ -1,0 +1,238 @@
+{
+    "TableCount": "1",
+    "Tables": [
+        {
+            "TableName": "user_info_test",
+            "TablePath": "tjds/user_info_test/",
+            "TableOwner": "tjds",
+            "TableColumns": [
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "IDT_SAFEPAY_USER_REFERENCIA"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "DOCUMENTO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TIPO_PESSOA"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "ANOMES"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TPV_TEF_TOTAL"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TPV_MOBILE_TOTAL"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TPV_WEB_TOTAL"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "IDT_SAFEUSER_CONFIG_DEF"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_DIAS_TRANSACIONADOS"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_TRANSACOES_TEF"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_TRANSACOES_MOBILE"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_TRANSACOES_WEB"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_TRANSACOES_PARC_TEF"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_TRANSACOES_PARC_MOBILE"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_TRANSACOES_PARC_WEB"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TPV_PARCELADO_TEF"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TPV_PARCELADO_MOBILE"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TPV_PARCELADO_WEB"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "VALOR_ANTECIPADO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_DE_ANTECIPACOES"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "FLAG_CHARGEBACK"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "VALOR_CHARGEBACK"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_CHARGEBACK"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "CATEGORIA"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "CODIGO_DO_MCC"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "NOME_DO_MCC"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "UF_DO_CLIENTE"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "SEXO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "VERIFICACAO_DA_CONTA"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TEMPO_CADASTRO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "TEMPO_CONTA"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "ESCROW_WEB"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "ESCROW_MOBILE"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "FLAG_POSSUI_PRE_PAGO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "FLAG_DESBLOQ_PRE_PAGO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "FLAG_TRANSF_AUTM_PRE_PAGO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_RECARGAS_PRE_PAGO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "VALOR_RECARGAS_PRE_PAGO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "NOME_COMPLETO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "FLAG_BLACKLIST_EC"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "DATA_NASCIMENTO"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "FLAG_BLACKLIST_CC"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "CARTEIRA"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_LEITORES"
+                },
+                {
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50",
+                    "ColumnName": "QTD_LEITORES_ATIVOS"
+                }
+            ],
+            "TableColumnsTotal": 45
+        }
+    ]
+}

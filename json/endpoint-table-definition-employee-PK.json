@@ -1,0 +1,32 @@
+{
+    "TableCount": "1",
+    "Tables": [
+        {
+            "TableName": "employee",
+            "TablePath": "tjds/employee/",
+            "TableOwner": "tjds",
+            "TableColumns": [
+                {
+                    "ColumnName": "LastName",
+                    "ColumnType": "STRING",
+                    "ColumnLength": "20"
+                },
+                {
+                    "ColumnName": "FirstName",
+                    "ColumnType": "STRING",
+                    "ColumnLength": "30"
+                },
+                {
+                    "ColumnName": "HireDate",
+                    "ColumnType": "DATETIME"
+                },
+                {
+                    "ColumnName": "OfficeLocation",
+                    "ColumnType": "STRING",
+                    "ColumnLength": "20"
+                }
+            ],
+            "TableColumnsTotal": "4"
+            }
+    ]
+}
